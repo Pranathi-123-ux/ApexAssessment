@@ -8,7 +8,7 @@ public class firstquestion {
         {
             if(s.get(field_name)!=null)
             {
-                String field_value=String.valueof(s.get(field_name));
+                String field_value=String.valueof(s.get(field_name)==true);
                 if(result.containsKey(field_value))
                 {
                     result.get(field_value).add(s);   
