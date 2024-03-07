@@ -25,5 +25,5 @@ public class secondquestion implements schedulable{
 
 }
 Anonymous window:
-  String cronExp = '0 0 0 * * ?';
+  String cronExp = '0 0 0 1 * ?';
 System.schedule('inserting the values', cronExp, new secondquestion());
