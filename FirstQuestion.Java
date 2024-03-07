@@ -21,7 +21,7 @@ public class firstquestion {
                 }
             }
         }
-        System.debug(result.size());
+        System.debug(result);
         return result;
     }
 
